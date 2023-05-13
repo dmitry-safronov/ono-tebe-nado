@@ -1,19 +1,81 @@
-.content-section {
-
+.three-columns-section {
+  display: grid;
+  align-items: center;
+  grid-template-columns:repeat(3, 1fr);
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .header {
   margin: 91px 50px;
-  background: wheat;
-  height: 109px;
+}
+
+.header_menu-list {
+  list-style: circle;
+}
+
+.header_menu-item {
+  display: inline;
+}
+
+.menu-link-active {
+  text-decoration: none;
+}
+
+.header_logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+  margin: auto;
+}
+
+.contact-info {
+  margin-left: auto;
+  line-height: 135%;
 }
 
 .content {
   height: 2276px;
 }
 
+.cover {
+
+}
+
+.lots {
+
+}
+
+.about {
+
+}
+
 .footer {
   margin: 90px 50px;
-  background: wheat;
-  height: 97px;
+}
+
+.footer_contact-info {
+  margin-left: 0px;
+}
+
+.footer_menu-list {
+  list-style: none;
+  text-align: center;  
+  align-self: start;
+}
+
+.footer_menu-list {
+  display: block;
+}
+
+.footer_social-media-links {
+  display: flex;
+  justify-content: end;
+  align-self: start;
+}
+
+.footer_social-media-link {
+  width: 48px;
+  height: 48px;
+  margin-left: 48px;
 }
