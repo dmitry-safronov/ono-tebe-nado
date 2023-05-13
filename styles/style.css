@@ -1,1 +1,19 @@
-/* место для вашего кода */
+.content-section {
+
+}
+
+.header {
+  margin: 91px 50px;
+  background: wheat;
+  height: 109px;
+}
+
+.content {
+  height: 2276px;
+}
+
+.footer {
+  margin: 90px 50px;
+  background: wheat;
+  height: 97px;
+}
