@@ -124,7 +124,8 @@
 }
 
 .cover_description-text {
-  align-self: center;
+  align-self: center;  
+  font-size: 22px;
   word-spacing: 20px;
   text-transform: uppercase;
   margin-right: 78px;
@@ -223,6 +224,9 @@
 
 .about_header {
   grid-column: 2/3;
+  align-self: center;
+  font-size: 40px;
+  line-height: 47px;
 }
 
 .about_article {
@@ -246,13 +250,14 @@
   margin-left: 0px;
 }
 
-.footer_menu-list {
-  list-style: none;
-  text-align: center;  
+.footer_menu-navigation {
   align-self: start;
 }
 
 .footer_menu-list {
+  list-style: none;
+  text-align: center;  
+  align-self: start;  
   display: block;
 }
 
