@@ -6,15 +6,15 @@
   position: relative;
 }
 
-.test-align-left {
+.text-align-left {
   text-align: left;
 }
 
-.test-align-center {
+.text-align-center {
   text-align: center;
 }
 
-.test-align-right {
+.text-align-right {
   text-align: right;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .header_menu-item:first-child {
-  margin-left:  0px;
+  margin-left:  0;
   display: inline;
 }
 
@@ -68,6 +68,8 @@
 .overlay {
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
+  left: 0;
+  top: 0;
   width: 100%;
   height: 100%;
   z-index: 0;
@@ -100,7 +102,7 @@
 }
 
 .no-letter-spacing {
-  letter-spacing: 0px;
+  letter-spacing: 0;
 }
 
 .cover_header-second-line {
@@ -122,7 +124,7 @@
 .cover_description-text {
   align-self: center;
   font-size: 22px;
-  word-spacing: 20px;
+  word-spacing: 18px;
   text-transform: uppercase;
   margin-right: 78px;
 }
@@ -138,10 +140,14 @@
   padding: 12px 32px;
 }
 
+.bet-button:hover {
+  opacity: 0.5;
+}
+
 .lots {
   display: grid;
   grid-template-rows: repeat(3, auto);
-  margin: 180px 50px 0px;
+  margin: 180px 50px 0;
 }
 
 .lots_header {
@@ -171,15 +177,15 @@
   overflow: hidden;
 }
 
-.lots_card-one {
+.lots_card-film {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.lots_card-two {
+.lots_card-book {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.lots_card-thee {
+.lots_card-picture {
   background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -187,7 +193,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 450px;
+  min-height: 450px;
   padding: 50px 40px;
 }
 
@@ -210,13 +216,13 @@
 .about {
   display: grid;
   grid-template-columns: 1fr 25px 1fr 25px 1fr;
-  margin: 181px 50px 0px;
+  margin: 181px 50px 0;
 }
 
 .about_logo-background {
   width: 240px;
   height: 240px;
-  border-radius: 120px;
+  border-radius: 50%;
   background-color: black;
   justify-self: center;
   display: flex;
@@ -246,7 +252,7 @@
 }
 
 .about_article-paragraph:first-child {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .footer {
@@ -254,7 +260,7 @@
 }
 
 .footer_contact-info {
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .footer_menu-navigation {
@@ -275,11 +281,14 @@
 }
 
 .footer_social-media-link {
-  width: 48px;
-  height: 48px;
   margin-left: 48px;
 }
 
 .footer_social-media-link:first-child {
-  margin-left:  0px;
+  margin-left:  0;
+}
+
+.footer_social-media-icon {
+  width: 48px;
+  height: 48px;
 }
