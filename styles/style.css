@@ -161,8 +161,11 @@
   margin-top: 27px;
 }
 
+.lots_link {
+  text-decoration: none;
+}
+
 .lots_card {
-  height: 450px;
   background-size: cover;
   overflow: hidden;
 }
@@ -177,6 +180,25 @@
 
 .lots_card-thee {
   background-image: url(../images/card-lot-03.jpg);
+}
+
+.lots_card-content {
+  display: flex;    
+  flex-direction: column;
+  justify-content: space-between;
+  height: 450px;
+  padding: 50px 40px;
+}
+
+.lots_card-content-header {
+  font-size: 22px;
+  line-height: 120%;  
+  text-decoration: underline;
+}
+
+.lots_card-content-text {
+  font-size: 20px;
+  line-height: 120%;
 }
 
 .lots_see-more-link{
