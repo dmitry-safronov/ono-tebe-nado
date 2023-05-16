@@ -221,6 +221,13 @@
   border-radius: 120px;
   background-color: black;
   justify-self: center;
+  display: flex;
+}
+
+.about_logo {
+  width: 148px;
+  height: 114px;
+  margin: auto;
 }
 
 .about_header {
@@ -241,7 +248,6 @@
 .about_article-paragraph:first-child {
   margin-top: 0px;
 }
-
 
 .footer {
   margin: 90px 50px;
