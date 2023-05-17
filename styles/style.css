@@ -138,6 +138,7 @@
   background: transparent;
   border: 1px solid white;
   padding: 12px 32px;
+  cursor: pointer;
 }
 
 .bet-button:hover {
@@ -214,8 +215,6 @@
 }
 
 .about {
-  display: grid;
-  grid-template-columns: 1fr 25px 1fr 25px 1fr;
   margin: 181px 50px 0;
 }
 
@@ -235,7 +234,7 @@
 }
 
 .about_header {
-  grid-column: 2/5;
+  grid-column: 2/4;
   align-self: center;
   font-size: 40px;
   line-height: 47px;
@@ -243,7 +242,7 @@
 }
 
 .about_article {
-  grid-column: 2/6;
+  grid-column: 2/4;
   margin-top: 7px;
 }
 
